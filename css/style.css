@@ -1,0 +1,57 @@
+/* ====== Tema Escuro Profissional ====== */
+
+body {
+  background: #121212;
+  color: #e0e0e0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #90caf9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container de arquivos */
+.file {
+  padding: 12px 10px;
+  border-bottom: 1px solid #2a2a2a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.2s ease;
+}
+
+.file:hover {
+  background: #1e1e1e;
+  border-radius: 4px;
+}
+
+/* Ícones (opcional) */
+.icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.8;
+}
+
+.folder {
+  color: #f7c65f;
+}
+
+.file-icon {
+  color: #90caf9;
+}
+
+/* Espaçamento */
+#file-list {
+  margin-top: 10px;
+}
